@@ -17,6 +17,10 @@ header {
           justify-content: space-between;
 }
 
+.btn--sp-header-nav {
+  display: none;
+}
+
 .header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31,6 +35,10 @@ header {
 .btn--entry {
   font-size: 1.2em;
   padding: 10px 25px;
+}
+
+.btn--entry--sp {
+  display: none;
 }
 
 /*main*/
