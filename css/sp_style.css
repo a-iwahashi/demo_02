@@ -1,1 +1,97 @@
-/* No CSS *//*# sourceMappingURL=sp_style.css.map */
+@media screen and (max-width: 480px) {
+  /*common*/
+  .container {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  img {
+    width: 100%;
+  }
+  /*header*/
+  header {
+    padding: 10px 0;
+    margin-bottom: 30px;
+  }
+  .header-contents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .btn--sp-header-nav {
+    display: block;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px 10px;
+  }
+  .header-nav {
+    display: none;
+    margin-left: 0px;
+  }
+  .header-nav li {
+    margin-right: 0px;
+  }
+  .btn--entry {
+    display: none;
+  }
+  .btn--entry--sp {
+    display: block;
+    width: 80vw;
+    font-size: 1.2em;
+    padding: 15px 0;
+  }
+  /*main*/
+  main {
+    text-align: center;
+  }
+  .btn--more {
+    padding: 20px 50px;
+    border-radius: 8px;
+  }
+  .company-box {
+    width: 38vw;
+    padding: 40px 0;
+  }
+  .business-box {
+    width: 80vw;
+    padding: 30px 0;
+    margin-bottom: 5px;
+  }
+  .member-box {
+    width: 80vw;
+    padding: 30px 0;
+    margin-bottom: 5px;
+  }
+  #recruit {
+    margin-bottom: 50px;
+    background: #f4b184;
+    padding: 10px 20px;
+  }
+  /*footer*/
+  .footer-contents {
+    display: block;
+  }
+  .footer-contents-ttl {
+    font-size: 1.2em;
+  }
+  .footer-contents-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .footer-contents-list li {
+    font-size: 0.9em;
+    margin-right: 18px;
+  }
+}
+/*# sourceMappingURL=sp_style.css.map */

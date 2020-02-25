@@ -13,6 +13,10 @@ header{
     justify-content: space-between;
 }
 
+.btn--sp-header-nav{
+    display: none;
+}
+
 .header-nav{
     display: flex;
     margin-left:-70px;
@@ -24,6 +28,10 @@ header{
 .btn--entry{
     font-size: 1.2em;
     padding: 10px 25px;
+}
+
+.btn--entry--sp{
+    display: none;
 }
 
 /*main*/
