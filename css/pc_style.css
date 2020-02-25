@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=pc_style.css.map */
+/*header*/
+header {
+  background: #fbe5d7;
+  margin: 0;
+  padding: 0;
+}
+
+.header-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-nav li {
+  margin: 0 10px;
+}
+
+.btn--entry {
+  font-size: 1.2em;
+  padding: 10px 25px;
+}
+
+/*main*/
+/*footer*/
+/*# sourceMappingURL=pc_style.css.map */

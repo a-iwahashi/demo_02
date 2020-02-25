@@ -1,1 +1,30 @@
 @charset "utf-8";
+
+/*header*/
+header{
+    background:#fbe5d7;
+    margin:0;
+    padding:0;
+}
+
+.header-contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav{
+    display: flex;
+    li{
+        margin:0 10px;
+    }
+}
+
+.btn--entry{
+    font-size: 1.2em;
+    padding: 10px 25px;
+}
+
+/*main*/
+
+/*footer*/
