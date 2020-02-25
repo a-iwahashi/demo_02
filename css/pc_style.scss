@@ -85,3 +85,31 @@ main{
 
 
 /*footer*/
+footer{
+    background:#fbe5d7;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.footer-contents{
+    display: flex;
+    justify-content: space-between;
+    &-ttl{
+        font-size: 1.2em;
+    }
+    &-list{
+        margin-left: -25px;
+        margin-bottom: 70px;
+        li{
+            font-size: 0.9em;
+            margin: 5px;
+        }
+    }
+}
+
+.copy{
+    display: block;
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
