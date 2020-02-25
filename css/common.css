@@ -11,6 +11,7 @@ li {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 figure {
@@ -27,5 +28,6 @@ figure {
   border: none;
   background: #a6d18c;
   cursor: pointer;
+  margin: 10px 0 20px;
 }
 /*# sourceMappingURL=common.css.map */

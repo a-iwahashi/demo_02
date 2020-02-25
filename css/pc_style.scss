@@ -3,7 +3,7 @@
 /*header*/
 header{
     background:#fbe5d7;
-    margin:0;
+    margin-bottom: 10px;
     padding:0;
 }
 
@@ -15,8 +15,9 @@ header{
 
 .header-nav{
     display: flex;
+    margin-left:-70px;
     li{
-        margin:0 10px;
+        margin-right:30px;
     }
 }
 
@@ -26,5 +27,61 @@ header{
 }
 
 /*main*/
+main{
+    text-align: center;
+}
+
+.main-contents-ttl{
+    font-size: 1.2em;
+}
+
+.btn--more{
+    padding: 10px 40px;
+    border-radius: 8px;
+}
+
+.main-contents-box{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.company-box{
+    width:395px;
+    background: #fbe5d7;
+    padding:50px 0;
+}
+
+.business-box{
+    width:260px;
+    background: #f4b184;
+    padding: 50px 0;
+}
+
+.member-box{
+    background: #fbe5d7;
+    width:395px;
+    padding:20px 0;
+    margin:5px 0;
+}
+
+#company{
+    margin-bottom: 50px;
+}
+
+#business{
+    margin-bottom: 50px;
+}
+
+#member{
+    margin-bottom: 50px;
+}
+
+#recruit{
+    margin-bottom: 50px;
+    background: #f4b184;
+    padding:10px 0;
+}
+
 
 /*footer*/
