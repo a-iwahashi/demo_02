@@ -12,26 +12,52 @@
     }
 
     /*header*/
+    .header-nav{
+        display: flex;
+        margin-left: 0px;
+        li{
+            margin-right: 25px;
+        }
+    }
 
     /*main*/
     .company-box{
-        width:40vw;
+        width:44vw;
         background: #fbe5d7;
         padding:50px 0;
     }
     
     .business-box{
-        width:260px;
+        width:29vw;
         background: #f4b184;
         padding: 50px 0;
     }
     
     .member-box{
         background: #fbe5d7;
-        width:395px;
+        width:44vw;
         padding:20px 0;
         margin:5px 0;
     }
 
+    .btn--more{
+        font-size: 1.1em;
+        padding: 25px 70px;
+        border-radius: 8px;
+    }
+
     /*footer*/
+    .footer-contents{
+        &-ttl{
+            font-size: 1.1em;
+        }
+        &-list{
+            margin-left: -40px;
+            margin-bottom: 70px;
+            li{
+                font-size: 0.9em;
+                margin: 5px;
+            }
+        }
+    }
 }
